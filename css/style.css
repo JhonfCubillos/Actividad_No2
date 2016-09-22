@@ -1,0 +1,156 @@
+/*font-family: 'Libre Franklin', sans-serif; y manejo de librerias de tipo de letra*/
+
+#contenedor{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	
+}
+
+/*Manejo de las etiquetas de para diseñar la presentación de la página*/
+body{
+	
+}
+
+h1{
+font-family: 'Libre Franklin';
+color: black;
+margin-left: 2px;
+font-size: 18px;
+text-align: left; 
+}
+
+h2{
+font-family: 'Libre Franklin';
+color: Black;
+font-size: 20px;
+text-align: center; 
+}
+
+h3{
+font-family: 'Libre Franklin';
+color: Black;
+font-size: 15px;
+text-align: center; 
+}
+
+
+h5{
+font-family: 'Libre Franklin';
+color: white;
+font-size: 10px;
+text-align: center; 
+}
+
+header{
+	width: 500px;
+	height: 90px;
+	text-align: center;
+	background: white;
+}
+
+nav{
+width: 1000px;
+height: 40px;
+background: #006680;
+position: 100px;
+border-radius: 0px;
+
+}
+
+ul{
+margin: auto;
+padding-top: 8px;
+}
+
+li{
+	font-family: 'Libre Franklin';
+	float:left;
+	list-style-type: none;
+	padding: 1px;
+	background: #006680;
+	margin: 3px;
+	border-radius: 5px;
+}
+
+
+#banner{
+	width: 100%;
+	height: 100%;
+	border: 10px solid #006680;
+	margin: auto;
+	background-size: 100% 100%;
+	animation: banner 10s infinite;
+}
+
+@keyframes banner{
+	0%, 30%{
+		background-image:(img/profesionalIngSis.jpg);
+		opacity:1;
+	}
+	31%, 34%{
+		opacity:0.1;
+	}
+	35%, 65%{
+		background-image:(img/superiorcienciasbasicas2.jpg);
+		opacity:1;
+	}
+	66%, 69%{
+		opacity:0.1;
+	}
+	70%, 99%{
+		background-image:(img/pereira.jpg);
+		opacity:0.1;
+	}
+}
+
+section{
+	width: 800px;
+	height: 600px;
+	background: white;
+	float: left;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+
+aside{
+	font-family: 'Libre Franklin';
+	width: 130px;
+	height: 200px;
+	background: #B3B3B3 ;
+	float: right;
+	margin-left: 20px;
+	margin-top: 80px;
+	border-radius: 5px;
+}
+
+p{
+	font-family: 'Libre Franklin';
+	font-size: 15px;
+	font-weight: bolder;
+	line-height: 24px;
+	padding: 10px;
+	text-align: justify;
+}
+
+footer{
+	font-family: 'Libre Franklin';
+	width: 1000px;
+	height: 40px;
+	background: black;
+	float: left;
+	margin-top: px;
+	border-radius: 0px;
+	margin-bottom: 5px;
+}
+
+/*Creación de las Clases para mejorar la presentación del menú*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color: white; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{color: black; text-decoration: none; text-shadow: 0 0 13px black;}
+.menu:active{color:black; text-decoration: none;}
